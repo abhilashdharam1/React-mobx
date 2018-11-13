@@ -3,7 +3,7 @@
 // Inspired by: https://github.com/commitizen/cz-conventional-changelog and https://github.com/commitizen/cz-cli
 
 var CZ_CONFIG_NAME = '.cz-config.js';
-var CZ_CONFIG_EXAMPLE_LOCATION = './cz-config-EXAMPLE.js';
+var CZ_CONFIG = './cz-config.js';
 var findConfig = require('find-config');
 var log = require('winston');
 var editor = require('editor');

@@ -36,12 +36,12 @@ module.exports = {
   // override the messages, defaults are as follows
   messages: {
     type: 'Select the type of change that you\'re committing:',
-    scope: '\nDenote the SCOPE of this change (optional):'
+    scope: '\nDenote the SCOPE of this change (optional):',
     // used if allowCustomScopes is true
-    },
+  },
 
   allowCustomScopes: true,
-  allowBreakingChanges: ['feat', 'fix'],
+  // allowBreakingChanges: ['feat', 'fix'],
 
   // limit subject length
   subjectLimit: 100
