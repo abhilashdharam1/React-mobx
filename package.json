@@ -1,5 +1,6 @@
 {
   "name": "react-mobx",
+  "author": "Abhilash Dharam",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
