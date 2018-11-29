@@ -18,7 +18,7 @@ class Birds extends Component {
         const { BirdStore } = this.props;
         return (
             <div>
-                <p>We have {BirdStore.birdCount} birds!!</p>
+                <p>We have {BirdStore.birdCount} birds!!!</p>
                 <form onSubmit={e => this.handleSubmit(e)}>
                     <input type="text" ref={ input => (this.birdInput = input) } placeholder="enter something"></input>
                 </form>
